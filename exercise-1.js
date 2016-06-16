@@ -23,7 +23,7 @@
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
-var sub = function(x,y){
+var sum = function(x,y){
   var total = x + y;
   return total;
 }
@@ -49,6 +49,14 @@ var getLength = function(str){
 
 console.log("Testing getLength('foo'): " + getLength('foo'));
 
+// var getLength = function(string){
+//   var count = 0;
+//   while(string[count] !== undefined){
+//     count++;
+//   }
+//   return count;
+// }
+
 // Q4
 // Write a function called `greaterThan` that takes
 // two parameters and returns `true` if the second
@@ -60,6 +68,11 @@ var greaterThan = function(x,y){
   else
   return false;
 }
+
+
+// var greaterThan = function(x,y){
+//   return x < y;
+// }
 
 
 
